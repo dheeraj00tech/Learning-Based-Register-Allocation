@@ -1,5 +1,9 @@
 # Project 13 - Learning-Based Register Allocation
 
+   ![Spill cost comparison](spill_cost_comparison.png)
+   ![Feature importance](feature_importance.png)
+   ![Spill count vs K](spill_count_vs_K.png)
+
 Train a model that decides **which live ranges lose their register** when
 register pressure exceeds K, and compare it against classic heuristics and the
 provable optimum.
